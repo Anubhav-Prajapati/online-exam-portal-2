@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(images/examportalimage.jpg);  
+    font-family: sans-serif;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #f9d0ae;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    font-weight: bold;
+}
+tr, th, p {
+    color: white;
+    /*text-align: center;*/
+    font-size: 20px;
+}
+
+.nextbtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+td > input{
+    float: left;
+}
+
+.parent{
+    max-height: 250px;
+    width: 100%;
+}
+.child {
+    margin: 25px 300px;
+    padding: 25px;
+}
+
+.nxtbutton{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.nxtbutton:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
